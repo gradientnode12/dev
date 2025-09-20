@@ -23,6 +23,8 @@ public class UptimeLogger {
         String RED = "\u001B[31m";
         String GREEN = "\u001B[32m";
 
+        System.out.printf("--------- Hòa Mõm ĂN LỒN Chó ----------");
+
         // Nếu dưới 15 phút thì log xanh, >= 15 phút thì log đỏ
         String color = (minutes >= 10) ? RED : GREEN;
 
